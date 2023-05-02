@@ -1,0 +1,5 @@
+kafka_addr: 'localhost:9092'
+topic: timestamps
+
+consumer:
+  group_id: consumer_group_1
