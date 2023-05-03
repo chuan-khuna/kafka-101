@@ -24,6 +24,7 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_LOG_RETENTION_MINUTES: 1
+      KAFKA_MESSAGE_MAX_BYTES: 5242880
     working_dir: /app
     volumes:
       - type: bind
